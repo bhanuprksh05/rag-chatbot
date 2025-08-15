@@ -1,0 +1,6 @@
+
+__pycache__/
+.env
+
+rag_chat.db
+chroma_db

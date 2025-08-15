@@ -1,0 +1,17 @@
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /embeddings in 0.386068 seconds
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /embeddings in 0.847827 seconds
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:root:Sesion ID: None, User Query: what is acid property, Model: gemini-2.5-pro
+INFO:root:Session ID: 0e193b9a-c4f4-4da7-ad52-0802b8234ec3, AI Response: Based on the context provided, the ACID properties in a database refer to a set of principles that guarantee reliable processing of database transactions.
+
+The context defines the "A" in ACID as:
+
+**A – Atomicity:** A transaction is all-or-nothing. Either all operations within the transaction are completed successfully, or none are.
+
+Additionally, the context describes systems with ACID properties as having:
+*   **Focus:** Strong consistency and strict rules.
+*   **Consistency:** Immediate and strong.
+*   **Transactions:** Atomic and reliable.
+*   **Ideal for:** Banking and financial systems.
